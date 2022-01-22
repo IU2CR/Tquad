@@ -1,0 +1,12 @@
+{
+    "git.autofetch": "all",
+    "git.scanRepositories": [
+        "F:/myWeb/Tquad"
+    ],
+    "html.customData": [
+        "https://github.com/IU2CR/Tquad.git"
+    ],
+    "css.customData": [
+        "https://github.com/IU2CR/Tquad/Customjs.js"
+    ]
+}
