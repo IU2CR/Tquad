@@ -651,6 +651,23 @@ font-size:14px !important;
 .Projects .html_content a:hover, .html_content a:focus
 {
 text-decoration:none;}
+/* ---------------animation of main content------------------------------*/
+.html_content p {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/*-------------------------end of animation-------------------*/
 .Projects #ttr_content 
 {
 float: left;
